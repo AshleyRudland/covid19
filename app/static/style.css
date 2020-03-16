@@ -1,0 +1,128 @@
+
+*, html, body {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+body {
+    background-color: #fff;
+}
+
+p, h1, h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.no-display {
+    display: none;
+}
+
+.center {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+h1.title {
+    font-size: 40px;
+    margin-top: 1em;
+    margin: 0;
+    padding: 0;
+    color: #262626;
+}
+
+h2 {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  color: #666;
+  font-weight: normal;
+}
+
+.content {
+
+}
+
+.analyze {
+
+}
+
+.upload-label {
+    padding: 10px;
+    font-size: 12px;
+}
+
+#result-label {
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+}
+
+button.choose-file-button {
+    border-radius: 8px;
+    background-color: #7052CB;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+button.choose-file-button:hover {
+  transform: scale(1.05);
+}
+
+button.choose-file-button:disabled {
+  opacity: 0.5;
+}
+
+button.analyze-button {
+    border: solid 1px #7052CB;
+    border-radius: 8px;
+    background-color: #7052CB;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 8px 10px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.moreInfo {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.moreInfo h3 {
+  font-size: 25px;
+
+}
+
+.moreInfo p span {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#upload-label, #image-picked, #analyze-button, #result-label {
+  display: none;
+}
+
+.label {
+    background-color: #ffb2ae;
+    border-radius: 9px;
+    margin: 20px;
+    border: 1px solid red;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
