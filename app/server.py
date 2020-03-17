@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://docs.google.com/uc?export=download&id=1ZTKTHOf-fsjQtMg9FwoBVhyTrqA-HOkz'
 export_file_name = 'export.pkl'
 
-classes = ['pneumocystis','streptococcus','nofinding','covid19','ards','sars']
+classes = ['ards','covid19','nofinding','other','pneumocystis','pneumonia','sars','streptococcus']
 path = Path(__file__).parent
 
 app = Starlette()
